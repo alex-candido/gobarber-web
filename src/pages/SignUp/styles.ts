@@ -1,6 +1,6 @@
 import { shade } from 'polished';
 import styled from 'styled-components';
-import singInBackgroundImg from '../../assets/sign-in-background.png';
+import singUpBackgroundImg from '../../assets/sign-up-background.png';
 
 export const Container = styled.div`
   height: 100vh;
@@ -41,7 +41,7 @@ export const Content = styled.div`
   }
 
   > a {
-    color: #ff9000;
+    color: #f4ede8;
     /* margin-top: 24px; */
     text-decoration: none;
     transition: color 0.2s;
@@ -50,7 +50,7 @@ export const Content = styled.div`
     align-items: center;
 
     &:hover {
-      color: ${shade(0.2, '#ff9000')};
+      color: ${shade(0.2, '#f4ede8')};
     }
 
     svg {
@@ -61,6 +61,6 @@ export const Content = styled.div`
 
 export const Background = styled.div`
   flex: 1;
-  background: url(${singInBackgroundImg}) no-repeat center;
+  background: url(${singUpBackgroundImg}) no-repeat center;
   background-size: cover;
 `;
