@@ -48,6 +48,8 @@ const AuthProvider: React.FC<ContextProps> = ({ children }) => {
     localStorage.setItem('@GoBarber:token', token);
     localStorage.setItem('@GoBarber:user', JSON.stringify(user));
 
+    console.log(user);
+
     setData({ token, user });
   }, []);
 
