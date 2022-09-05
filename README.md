@@ -2,7 +2,7 @@
 
 # Iniciando Front-End Web - GoBarber Web
 
-GoBarber é uma aplicação de agendamentos de serviços para proprietários de barbearias ou salões de beleza. Nesta etapa da aplicação foi criado a versão web, onde foram desenvolvidos as páginas de login e cadastro, nos quais é realizado todas as etapas de comunicação com a API Back-End Node.JS [Iniciando backend do app](https://github.com/alex-candido/gostack-11-nivel-02-iniciando-backend-do-app).
+GoBarber é uma aplicação de agendamentos de serviços para proprietários de barbearias ou salões de beleza. Nesta etapa da aplicação foi criado a versão web, onde foram desenvolvidos as páginas de login e cadastro, dentre suas funcionalidade a criação e validação de usuário, se baseando em todas as etapas de comunicação com a API Back-End Node.JS [Iniciando backend do app](https://github.com/alex-candido/gostack-11-nivel-02-iniciando-backend-do-app).
 
 Suas abordagens envolve padronização de projetos React, Style Components, React Routes, React Hooks, Context API, consumo de APIs Interna, Typescript, Ferramentas como ESLint, Prettier e EditorConfig, dentre outras libs aqui destacadas. 
 
